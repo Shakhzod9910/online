@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.profile{
+	width: 300px;
+	height: 300px;
+	margin: 300px auto;
+	border-radius: 50%;
+	background-image: url(1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat
+}
+
+.online{
+	width: 50px;
+	height: 50px;
+	background-color: lawngreen;
+	border-radius: 50%;
+	position: relative;
+	top: 230px;
+	left: 230px
+}
+
+
+
+.katta{
+	display: flex;
+	justify-content: flex-start;
+	margin-right: auto;
+	margin-left: auto;
+	width: 400px;
+	height: 400px;
+	margin-bottom: 100px;
+	background-size: cover;
+	background-image: url(1.jpg);
+	
+	
+}
+
+.kichik{
+	width: 200px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: translateX(-200px);
+	background-color: transparent;
+	transition: relative 1s ease;
+}
+
+.kichik h1{
+	font-family: sans-serif;
+	color: transparent;
+}
+
+.katta:hover .kichik{
+	position: relative;
+	left: 200px;
+	background-color: dodgerblue;
+	
+}
+
+.katta:hover h1{
+	color: #fff;
+}
